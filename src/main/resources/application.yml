@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: pharmacy
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health
